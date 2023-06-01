@@ -1,0 +1,15 @@
+app:
+  name: my-quarkus-app
+  namespace: my-quarkus-app-dev
+  cluster: .apps
+
+git:
+  branch: main
+  repo: https://github.com/test3-janus/backstage-sample-quarkus-app-new
+  org: test3-janus
+  name: backstage-sample-quarkus-app-new
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: my-quarkus-app
+  tag: latest
